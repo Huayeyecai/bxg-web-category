@@ -8,9 +8,9 @@
     <!-- 引入图标 -->
     <link rel="shortcut icon" href="../favicon.ico" />
     <!-- 引入css -->
-    <link rel="stylesheet" href="../views/css/category.css">
+    <link rel="stylesheet" href="css/category.css">
     <!-- 引入layui -->
-    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="lib/layui/css/layui.css">
     <title>博学谷</title>
 </head>
 
@@ -19,10 +19,47 @@
     <header class="header clearfix">
 
     </header>
-    <div class="bottom">
-        <i class="layui-icon layui-icon-home"></i>
-        <i class="layui-icon layui-icon-app"></i>
+    <div class="main">
+    <!-- 侧边栏 -->
+    <ul class="nav-tree-side">
+        <a href="javascript:;">
+          <li>前端</li>  
+        </a>
+        <a href="javascript:;">
+            <li>微信小程序</li>  
+          </a>
+          <a href="javascript:;">
+            <li>Vue.js</li>  
+          </a>
+          <a href="javascript:;">
+            <li>移动web开发</li>  
+          </a>
+          <a href="javascript:;">
+            <li>bootstrap</li>  
+          </a>
+          <a href="javascript:;">
+            <li>Node.js</li>  
+          </a>
+        </ul>
     </div>
+    <!-- 底部 -->
+    <div class="bottom">
+        <a href="index.html">
+            <i class="layui-icon layui-icon-home"></i>
+        </a>
+        <a href="category.html">
+            <i class="layui-icon layui-icon-app"></i>
+
+        </a>
+    </div>
+      <!-- 导入 layui 的js -->
+      <script src="lib/layui/layui.js"></script>
+      <!-- 导入 jQuery -->
+      <script src="lib/jquery.js"></script>
+      <!-- 导入模板引擎 -->
+      <script src="lib/template-web.js"></script>
+      <!-- 导入自己的 js -->
+      <script src="js/category.js"></script>
 </body>
 
 </html>
