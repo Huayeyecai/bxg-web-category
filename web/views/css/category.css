@@ -1,0 +1,48 @@
+body {
+    max-width: 376px;
+    margin: 0 auto;
+    background: #f1f1f1;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bottom {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 376px;
+    bottom: 0;
+    height: 58px;
+    background-color: #fff;
+}
+
+.bottom .layui-icon-home {
+    position: absolute;
+    font-size: 48px;
+    color: skyblue;
+    left: 40px;
+    top: 5px;
+}
+
+.bottom .layui-icon-app {
+    position: absolute;
+    font-size: 48px;
+    color: skyblue;
+    right: 40px;
+    top: 5px;
+}

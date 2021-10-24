@@ -1,0 +1,138 @@
+body {
+    max-width: 376px;
+    margin: 0 auto;
+    background: #f1f1f1;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* header */
+.header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 376px;
+    top: 0;
+    height: 64px;
+    background-color: #446adf;
+}
+
+.header .post {
+    float: left;
+    height: 50px;
+    vertical-align: middle;
+    max-width: 100%;
+    margin: 7px 0 7px 10px;
+}
+
+.header .header-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -62px;
+    height: 40px;
+    top: 10px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.header i {
+    float: right;
+    margin: 10px;
+    font-size: 44px;
+    color: #fff;
+}
+
+/* banner */
+.banner {
+    margin-top: 64px;
+}
+
+.banner img {
+    height: 170px;
+    max-width: 100%;
+
+}
+
+/* course-list */
+.course-list {
+    margin-top: 16px;
+    height: 248px;
+    background-color: #fff;
+}
+
+.course-list h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #446ADF;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.course-list .course {
+    float: left;
+    height: 70px;
+    width: 124px;
+    margin: 18px 0;
+}
+
+.course-list .course:nth-child(1),
+.course-list .course:nth-child(43) {
+    margin-left: 2px;
+}
+
+.course-list .course:nth-child(3),
+.course-list .course:nth-child(6) {
+    margin-right: 2px;
+}
+
+.course-list .course img {
+    vertical-align: middle;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    margin: 0 27px;
+
+}
+
+
+.bottom {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 376px;
+    bottom: 0;
+    height: 58px;
+    background-color: #fff;
+}
+
+.bottom .layui-icon-home {
+    position: absolute;
+    font-size: 48px;
+    color: skyblue;
+    left: 40px;
+    top: 5px;
+}
+
+.bottom .layui-icon-app {
+    position: absolute;
+    font-size: 48px;
+    color: skyblue;
+    right: 40px;
+    top: 5px;
+}
