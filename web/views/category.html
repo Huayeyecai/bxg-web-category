@@ -2,64 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 引入图标 -->
-    <link rel="shortcut icon" href="../favicon.ico" />
-    <!-- 引入css -->
-    <link rel="stylesheet" href="css/category.css">
-    <!-- 引入layui -->
-    <link rel="stylesheet" href="lib/layui/css/layui.css">
-    <title>博学谷</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 引入图标 -->
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <!-- 引入css -->
+  <link rel="stylesheet" href="css/category.css">
+  <!-- 引入layui -->
+  <link rel="stylesheet" href="lib/layui/css/layui.css">
+  <title>博学谷</title>
 </head>
 
 <body>
-    <!-- 头部模块 -->
-    <header class="header clearfix">
-
-    </header>
-    <div class="main">
+  <!-- 头部模块 -->
+  <header class="header clearfix">
+    <img class="logo" src="images/logo.png" alt="">
+    <h1>课 程 分 类</h1>
+  </header>
+  <!-- 主页面 -->
+  <div class="main">
     <!-- 侧边栏 -->
-    <ul class="nav-tree-side">
-        <a href="javascript:;">
-          <li>前端</li>  
-        </a>
-        <a href="javascript:;">
-            <li>微信小程序</li>  
-          </a>
+    <div class="nav-left">
+      <ul class="nav-tree-side">
+        <li class="nav-item">
+          <a href="javascript:;">前端</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:;">微信小程序</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:;">Vue.js</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:;">移动web开发</a>
+        </li>
+        <li class="nav-item">
           <a href="javascript:;">
-            <li>Vue.js</li>  
+            bootstrap
           </a>
+        </li>
+        <li class="nav-item">
           <a href="javascript:;">
-            <li>移动web开发</li>  
+            Node.js
           </a>
-          <a href="javascript:;">
-            <li>bootstrap</li>  
-          </a>
-          <a href="javascript:;">
-            <li>Node.js</li>  
-          </a>
-        </ul>
+        </li>
+      </ul>
     </div>
-    <!-- 底部 -->
-    <div class="bottom">
-        <a href="index.html">
-            <i class="layui-icon layui-icon-home"></i>
-        </a>
-        <a href="category.html">
-            <i class="layui-icon layui-icon-app"></i>
+    <!-- 右侧详细内容 -->
+    <div class="nav-right">
+      <div class="web">
+        <h2 class="gro">就业班</h2>
+        <div class="web-fe">
+          <!-- <img src="images/web_fe.png" alt=""> -->
+          <span>web前端在线就业班</span>
+        </div>
+      </div>
+      <h2 class="high">提高课</h2>
+    </div>
+    <div>
 
-        </a>
     </div>
-      <!-- 导入 layui 的js -->
-      <script src="lib/layui/layui.js"></script>
-      <!-- 导入 jQuery -->
-      <script src="lib/jquery.js"></script>
-      <!-- 导入模板引擎 -->
-      <script src="lib/template-web.js"></script>
-      <!-- 导入自己的 js -->
-      <script src="js/category.js"></script>
+  </div>
+  <!-- 底部 -->
+  <div class="bottom">
+    <a href="index.html">
+      <i class="layui-icon layui-icon-home"></i>
+    </a>
+    <a href="category.html">
+      <i class="layui-icon layui-icon-app"></i>
+
+    </a>
+  </div>
+  <!-- 导入 layui 的js -->
+  <script src="lib/layui/layui.js"></script>
+  <!-- 导入 jQuery -->
+  <script src="lib/jquery.js"></script>
+  <!-- 导入模板引擎 -->
+  <script src="lib/template-web.js"></script>
+  <!-- 导入自己的 js -->
+  <script src="js/category.js"></script>
 </body>
 
 </html>

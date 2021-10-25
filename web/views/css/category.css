@@ -1,7 +1,7 @@
 body {
     max-width: 376px;
     margin: 0 auto;
-    background: #f1f1f1;
+    background: #f5f5f5;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 
@@ -20,7 +20,105 @@ a {
 a:hover {
     text-decoration: none;
 }
-
+/* header */
+.header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 376px;
+    top: 0;
+    height: 66px;
+    background-color: #fff;
+}
+.header .logo {
+vertical-align: middle;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+height: 40px;
+max-width: 100%;
+}
+.header h1 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    color: #28abfc;
+    padding-top: 14px;
+    padding-right: 20px;
+}
+/* main  */
+.main {
+    position: relative;
+    margin-top: 88px;
+    max-width: 376px;
+    /* background-color: #fff; */
+}
+.nav-left {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+.nav-tree-side .nav-item {
+    height: 56px;
+    width: 100px;
+    background-color: #f5f5f5;
+}
+.nav-tree-side .nav-item a {
+    line-height: 56px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding-left: 5px;
+}
+.nav-tree-side .nav-item:hover{
+    background-color: #fff;
+}
+.nav-right {
+position: absolute;
+width: 320px;
+left:100px;
+background-color: #fff;
+}
+.nav-right .gro {
+    margin: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #28abfc;
+}
+.web {
+    position: absolute;
+    margin-left: 17px;
+    /* margin-top: 40px; */
+    height: 86px;
+    width: 264px;
+}
+.web .web-fe{
+    height: 86px;
+    width: 100%;
+    background: url(../images/web_fe.png) no-repeat;
+}
+/* .nav-right .web_fe img{
+    height: 86px;
+} */
+.web .web-fe span{
+    color: #fff;
+    font-size: 18px;
+    line-height:86px;
+    text-align: center;
+padding-left: 50px;
+}
+.web .high{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: #28abfc;
+}
+/* bottom */
 .bottom {
     position: fixed;
     box-sizing: border-box;

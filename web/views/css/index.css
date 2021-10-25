@@ -109,8 +109,21 @@ a:hover {
     margin: 0 27px;
 
 }
-
-
+/* course-table */
+.course-table {
+    margin-top: 16px;
+    height: 248px;
+    background-color: #fff;
+}
+.course-table .list-title h1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #446ADF;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+/* bottom */
 .bottom {
     position: fixed;
     box-sizing: border-box;
