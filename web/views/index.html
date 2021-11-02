@@ -28,7 +28,7 @@
     </div>
     <!-- 就业课 -->
     <div class="course-list clearfix">
-        <h1>· 就业课 ·</h1>
+        <h1>· 就 业 课 ·</h1>
         <div class="course">
             <img src="images/fe-list.png" alt="">
 
@@ -55,34 +55,49 @@
 
     </div>
     <!-- 微课 -->
-    <dl class="course-table" id="course_table">
+    <div class="course-table">
         <div class="list-title">
-            <h1>· 就业课 ·</h1>
-
+            <h1>· 微 课 ·</h1>
         </div>
-        <dd class="table-list-one">
+        <ul id="courseList">
+            <!-- 定义模版 -->
+            <script type="text/html" id="tpl-list">
+                {{each data}}
+                <li>
+                    <a href="#">
+                        <div class="table-list-img">
+                            <img src="{{$value.img}}" alt="">
+                        </div>
+                        <div class="list-item-content">
+                            <h3>{{$value.name}}</h3>
+                            <span>{{$value.count}}人学习</span>
+                            <i>¥{{$value.price}}</i>
+                        </div>
+                    </a>
+                </li>
+                {{/each}}
+            </script>
+        </ul>
 
-        </dd>
-    </dl>
-    <div class="bottom">
-        <a href="index.html">
-            <i class="layui-icon layui-icon-home"></i>
-        </a>
-        <a href="category.html">
-            <i class="layui-icon layui-icon-app"></i>
-        </a>
-    </div>
-    <!-- </div> -->
+
+        <div class="bottom">
+            <a href="index.html">
+                <i class="layui-icon layui-icon-home"></i>
+            </a>
+            <a href="category.html">
+                <i class="layui-icon layui-icon-app"></i>
+            </a>
+        </div>
 
 
-    <!-- 导入 layui 的js -->
-    <script src="lib/layui/layui.js"></script>
-    <!-- 导入 jQuery -->
-    <script src="lib/jquery.js"></script>
-    <!-- 导入模板引擎 -->
-    <script src="lib/template-web.js"></script>
-    <!-- 导入自己的 js -->
-    <script src="js/index.js"></script>
+        <!-- 导入 layui 的js -->
+        <!-- <script src="lib/layui/layui.js"></script> -->
+        <!-- 导入 jQuery -->
+        <script src="lib/jquery.js"></script>
+        <!-- 导入模板引擎 -->
+        <script src="lib/template-web.js"></script>
+        <!-- 导入自己的 js -->
+        <script src="js/index.js"></script>
 </body>
 
 </html>

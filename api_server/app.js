@@ -1,4 +1,4 @@
-const express = require('express')
+express = require('express')
 const app = express()
 // 导入跨域插件
 const cors = require('cors');

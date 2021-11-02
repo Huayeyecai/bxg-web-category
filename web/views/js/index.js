@@ -1,13 +1,14 @@
 $(function () {
-    initTableListOne()
-
-    function initTableListOne() {
+    function getTableList() {
         $.ajax({
-            method: 'GET',
-            url: 'images',
-            succes: function (res) {
-                console.log(res)
+            url: 'http://127.0.0.1:3001/getAllCourse',
+            type: 'get',
+            success: function (res) {
+                var htmlStr = template('tpl-list', res.result);
+                $('#courseList').html(htmlStr)
             }
         })
     }
+
+    getTableList()
 })

@@ -92,7 +92,7 @@ a:hover {
 }
 
 .course-list .course:nth-child(1),
-.course-list .course:nth-child(43) {
+.course-list .course:nth-child(4) {
     margin-left: 2px;
 }
 
@@ -112,7 +112,7 @@ a:hover {
 /* course-table */
 .course-table {
     margin-top: 16px;
-    height: 248px;
+    height: 1800px;
     background-color: #fff;
 }
 .course-table .list-title h1{
@@ -121,7 +121,49 @@ a:hover {
     font-weight: 700;
     color: #446ADF;
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
+}
+
+.course-table li{
+    float: left;
+height: 158px;
+margin: 10px 8px 0px 6px;
+
+}
+.course-table li:nth-child(even){
+    margin-left: 0px;
+    margin-right: 6px;
+}
+.course-table li a .table-list-img {
+    height: 100px;
+    width: 175px;
+}
+.course-table li a .table-list-img img {
+    height: 100px;
+    width: 100%;
+    vertical-align: middle;
+}
+.course-table li a .list-item-content {
+    height: 58px;
+
+}
+.course-table li a .list-item-content h3{
+font-weight: 700;
+color: #333;
+font-size: 16px;
+/* text-align: center; */
+}
+.course-table li a .list-item-content span {
+    float: left;
+    color: #d0d0d0;
+    font-style: 14px;
+    padding-top: 12px;
+    text-align: center;
+}
+.course-table li a .list-item-content i{
+    float: right;
+    padding-top: 12px;
+    color: #446adf;
 }
 /* bottom */
 .bottom {
